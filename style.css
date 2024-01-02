@@ -24,7 +24,7 @@ body{
     font-size: 35px;
     font-weight: 700;
 }
-section-dis{
+.section-dis{
     color: #252525;
     font-size: 18px;
     text-align: center;
@@ -58,9 +58,10 @@ nav a{
 /* Header start */
 .header{
     background-color: #ebd3c44f;
-    background-image: url(./images/header_bg.png);
+    background-image: url(./images/header_bg.png),url('./images/developer.png');
+    background-size: auto,5.5%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -84,8 +85,91 @@ nav a{
     font-weight: 400;
 }
 /* about section */
+
 .about{
     padding: 130px;
-    margin: 130px 0px;
+    margin: 130px 130px;
     background-color: antiquewhite;
+}
+
+.about-info-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#dis{
+    margin: 30px 250px;
+}
+
+/* icon-box */
+.skill-container{
+    display: flex;
+    margin: 0px 150px;
+
+}
+.skill{
+    background-color: #fff;
+    margin: 0px 15px;
+    box-shadow: box-shadow: 11px 10px 12px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 10px 12px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 10px 12px -4px rgba(0,0,0,0.75);;
+    padding: 10px 20px;
+}
+.skill-dis{
+    text-align:left;
+}
+
+/* summary  */
+.summary-title{
+    color: #474747;
+    font-weight: 700;
+}
+.summary-thrd{
+    color: #474747;
+    margin: 0;
+}
+.summary-ford{
+    line-height: 10px;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.summary-dis{
+    font-weight: 300;
+    font-size: 16px;
+}
+.summary-part{
+    display: flex;
+}
+.summary-left{
+    padding: 0px 30px 0px 100px;
+}
+.summary-right{
+    padding: 0px 100px 0px 30px;
+}
+.btn{
+    text-align: center;
+    margin: 20px 0px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+    background-color:#ebcab3;
+    
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right input, textarea{
+    display: block;
+    margin-bottom: 14px;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 6px;
+    color: #3d3737;  
+    width: 300px; 
 }
