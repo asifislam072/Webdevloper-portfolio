@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;800&display=swap');
 body{
     font-family: 'Rubik', sans-serif;
+    margin: 0;
 }
 
 /* nav start */
@@ -22,6 +23,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 100px;
 }
 .nav-title{
     color: rgb(10, 9, 9);
@@ -41,6 +43,17 @@ nav a{
     color: #252525;
 }
 
-
-
 /* nav end */
+
+/* Header start */
+.header{
+    background-color: #ebd3c44f;
+    height: 100vh;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 100vh; */
+}
