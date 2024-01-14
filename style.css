@@ -179,6 +179,9 @@ nav a{
     .skill-container, .summary-part, .footer-container, .about-info-container{
         flex-direction: column;
     }
+    .skill-container{
+        margin: 0px 10px;
+    }
     .skill{
         margin-top: 10px;
     }
@@ -209,7 +212,7 @@ nav a{
     }
     .banner {
         margin: 0px;
-        padding: 100px 100px 30px;
+        padding: 50px 36px 30px;
     }
     button.btn-primary {
         margin-right: 10px;
